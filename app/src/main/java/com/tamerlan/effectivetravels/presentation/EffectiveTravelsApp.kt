@@ -6,14 +6,25 @@ import com.tamerlan.effectivetravels.di.DaggerApplicationComponent
 
 class EffectiveTravelsApp : Application()  {
 
-    val component: ApplicationComponent by lazy {
+
+//    // CoreComponent лениво инициализируется при первом обращении
+//    val coreComponent: CoreComponent by lazy {
+//        DaggerCoreComponent.factory().create(this)
+//    }
+
+//    // MainComponent зависит от CoreComponent
+//    val mainComponent: MainComponent by lazy {
+//        DaggerMainComponent.factory().create(coreComponent)
+//    }
+
+    // AppComponent зависит от CoreComponent и MainComponent
+    val appComponent: ApplicationComponent by lazy {
         DaggerApplicationComponent.factory().create(this)
     }
 
 
-
     override fun onCreate() {
-        component.inject(this)
+        appComponent.inject(this)
         super.onCreate()
     }
 }

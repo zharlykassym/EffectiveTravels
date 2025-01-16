@@ -10,6 +10,10 @@ import dagger.Component
 )
 interface CoreComponent {
 
+    val context: Context
+
+    fun inject()
+
     @Component.Factory
     interface Factory {
         fun create(@BindsInstance context: Context): CoreComponent

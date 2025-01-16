@@ -19,8 +19,7 @@ interface ApplicationComponent {
 
     fun inject(activity: MainActivity)
 
-//    fun mainComponent(): MainComponent
-//    fun coreComponent(): CoreComponent
+
 //    fun inject(fragment: CoinDetailFragment)
 
 
