@@ -11,8 +11,9 @@ interface NetworkModule {
 
     companion object {
 
+
+        //        @com.tamerlan.effectivetravels.di.ApplicationScope
         @Provides
-        @ApplicationScope
         fun provideApiService(): ApiService {
             return ApiFactory.apiService
         }

@@ -9,7 +9,8 @@ import dagger.Module
 @Module
 interface DataModule {
 
+
+    //    @com.tamerlan.effectivetravels.di.ApplicationScope
     @Binds
-    @ApplicationScope
     fun bindRepository(impl: MainRepositoryImpl): MainRepository
 }
