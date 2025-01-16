@@ -1,4 +1,4 @@
-package com.tamerlan.main.di
+package com.tamerlan.network.di
 
 
 import com.tamerlan.network.data.ApiFactory
@@ -10,9 +10,6 @@ import dagger.Provides
 interface NetworkModule {
 
     companion object {
-
-
-        //        @com.tamerlan.effectivetravels.di.ApplicationScope
         @Provides
         fun provideApiService(): ApiService {
             return ApiFactory.apiService

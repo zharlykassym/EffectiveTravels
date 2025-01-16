@@ -1,4 +1,4 @@
-package com.tamerlan.main.di
+package com.tamerlan.effectivetravels.di
 
 import javax.inject.Scope
 

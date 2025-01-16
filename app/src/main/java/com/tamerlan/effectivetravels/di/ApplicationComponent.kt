@@ -1,24 +1,26 @@
-package com.tamerlan.main.di
+package com.tamerlan.effectivetravels.di
 
-import android.app.Application
 //import com.tamerlan.effectivetravels.presentation.EffectiveTravelsApp
 //import com.tamerlan.effectivetravels.presentation.MainActivity
 
+import android.app.Application
+import com.tamerlan.effectivetravels.presentation.EffectiveTravelsApp
+import com.tamerlan.effectivetravels.presentation.MainActivity
 import dagger.BindsInstance
 import dagger.Component
 
 @ApplicationScope
 @Component(
-    modules = [
-        DataModule::class, NetworkModule::class
-    ]
+    modules = [AppModule::class]
 )
 interface ApplicationComponent {
 
-//    fun inject(application: EffectiveTravelsApp)
-//
-//    fun inject(activity: MainActivity)
+    fun inject(application: EffectiveTravelsApp)
 
+    fun inject(activity: MainActivity)
+
+//    fun mainComponent(): MainComponent
+//    fun coreComponent(): CoreComponent
 //    fun inject(fragment: CoinDetailFragment)
 
 
