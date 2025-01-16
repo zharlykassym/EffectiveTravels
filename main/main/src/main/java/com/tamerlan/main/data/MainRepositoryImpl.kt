@@ -1,9 +1,8 @@
 package com.tamerlan.main.data
 
-import androidx.lifecycle.LiveData
 import com.tamerlan.main.domain.MainRepository
 import com.tamerlan.main.domain.OfferEntity
-import com.tamerlan.network.ApiService
+import com.tamerlan.network.data.ApiService
 import javax.inject.Inject
 
 class MainRepositoryImpl @Inject constructor(

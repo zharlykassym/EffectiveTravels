@@ -1,10 +1,11 @@
 package com.tamerlan.main.data
 
 import com.tamerlan.main.domain.OfferEntity
-import com.tamerlan.network.model.OfferDto
-import com.tamerlan.network.model.OfferListDto
+import com.tamerlan.network.data.model.OfferDto
+import com.tamerlan.network.data.model.OfferListDto
+import javax.inject.Inject
 
-class MainMapper {
+class MainMapper @Inject constructor(){
 
     fun mapDtoToEntity(offerDto: OfferDto) = OfferEntity(
         id = offerDto.id,

@@ -1,6 +1,6 @@
-package com.tamerlan.network
+package com.tamerlan.network.data
 
-import com.tamerlan.network.model.OfferListDto
+import com.tamerlan.network.data.model.OfferListDto
 import retrofit2.http.GET
 
 interface ApiService {
