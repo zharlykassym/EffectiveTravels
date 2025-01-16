@@ -1,8 +1,8 @@
 package com.tamerlan.main.di
 
 import android.app.Application
-import com.tamerlan.effectivetravels.presentation.EffectiveTravelsApp
-import com.tamerlan.effectivetravels.presentation.MainActivity
+//import com.tamerlan.effectivetravels.presentation.EffectiveTravelsApp
+//import com.tamerlan.effectivetravels.presentation.MainActivity
 
 import dagger.BindsInstance
 import dagger.Component
@@ -15,9 +15,9 @@ import dagger.Component
 )
 interface ApplicationComponent {
 
-    fun inject(application: EffectiveTravelsApp)
-
-    fun inject(activity: MainActivity)
+//    fun inject(application: EffectiveTravelsApp)
+//
+//    fun inject(activity: MainActivity)
 
 //    fun inject(fragment: CoinDetailFragment)
 
@@ -30,7 +30,7 @@ interface ApplicationComponent {
 
 }
 
-
+//android:name=".presentation.EffectiveTravelsApp"
 //package com.tamerlan.main.di
 //
 //import android.app.Application
