@@ -1,4 +1,4 @@
-package com.tamerlan.main.domain
+package com.tamerlan.effectivetravels.domain
 
 data class OfferEntity(
     val id: Int? = null,

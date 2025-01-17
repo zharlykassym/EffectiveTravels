@@ -1,10 +1,10 @@
-package com.tamerlan.network.data
+package com.tamerlan.effectivetravels.data
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiFactory {
-    private const val BASE_URL = "file:///android_asset/"
+    private const val BASE_URL = "https://drive.usercontent.google.com/"
     private val retrofit = Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
         .baseUrl(BASE_URL)

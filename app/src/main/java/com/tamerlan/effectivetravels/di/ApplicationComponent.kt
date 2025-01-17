@@ -11,13 +11,16 @@ import dagger.Component
 
 @ApplicationScope
 @Component(
-    modules = [AppModule::class]
+    modules = [NetworkModule::class, DataModule::class, ViewModelModule::class]
 )
 interface ApplicationComponent {
 
     fun inject(application: EffectiveTravelsApp)
 
     fun inject(activity: MainActivity)
+//
+//    fun mainComponent(): MainComponent
+//    fun coreComponent(): CoreComponent
 
 
 //    fun inject(fragment: CoinDetailFragment)
