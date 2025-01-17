@@ -13,6 +13,8 @@ buildscript {
 
     dependencies {
         classpath(Dependencies.dagger2)
+        classpath(Dependencies.dagger2Compiler)
+        classpath(Dependencies.dagger2AndroidProcessor)
 //        implementation("com.google.dagger:dagger-compiler:2.52")
 //        ksp("com.google.dagger:dagger-compiler:2.52")
 

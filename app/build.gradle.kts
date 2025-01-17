@@ -44,11 +44,16 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(project(":core:network"))
+    implementation(project(":main:main"))
+//    implementation(project(":main:main"))
+//    implementation(project(":core:network"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     retrofit()
     dagger2()
+
 
 
 }
