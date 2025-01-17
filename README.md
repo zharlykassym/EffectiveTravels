@@ -1,4 +1,4 @@
-Техническое задание от Effective Mobile, выполняемое из интереса к практике.
+![image](https://github.com/user-attachments/assets/ab7b135b-2ad6-4e54-bcca-e4042c278e36)Техническое задание от Effective Mobile, выполняемое из интереса к практике.
 ТЗ на разработку приложения для поиска билетов
 Содержание
 
@@ -55,6 +55,9 @@ Room (не обязательно, если время будет)
 
 1. Меню
 
+![image](https://github.com/user-attachments/assets/beefd927-b401-469e-a5a7-3fd4bd96e5d2)
+
+
 Независимо от выбранного экрана в приложении отображается меню. Оно включает фиксированный набор кнопок. В очередности отображения слева направо:
 Авиабилеты - переход к основному сценарию. Все сценарии, описанные в данном ТЗ, реализуются на этом пункте меню.
 Отели - переход к экрану с заглушкой.
@@ -65,6 +68,9 @@ Room (не обязательно, если время будет)
 2. Главная. Первый вход
 При входе в приложение отображается данный экран.
 
+![image](https://github.com/user-attachments/assets/72bda594-a6f1-469b-983a-6149efd41d8b)
+
+![image](https://github.com/user-attachments/assets/dd70528d-c129-4b08-a064-82283410df4e)
 
 
 
@@ -79,10 +85,13 @@ Room (не обязательно, если время будет)
 id
 Изображение
 1
+![image](https://github.com/user-attachments/assets/205b85e4-2e89-4826-91c2-d4e5dd065b54)
 
 2
+![image](https://github.com/user-attachments/assets/32982747-b356-4048-a663-fe0aed630a16)
 
 3
+![image](https://github.com/user-attachments/assets/2f7d3a21-e07f-4416-97fb-2acb11a3fc48)
 
 
 
@@ -91,7 +100,9 @@ id
 
 2. Поиск
 При клике на поле ввода места прибытия отображается модальное окно:
+![image](https://github.com/user-attachments/assets/688397e9-8c26-4cd8-b0a3-c22a377f44fd)
 
+![image](https://github.com/user-attachments/assets/7e938c47-f01f-4381-8a0a-ae6ce9a272b3)
 
 
 Справа от поля ввода отображается иконка крестика. При клике - поле очищается.
@@ -107,7 +118,9 @@ id
 Когда поле ввода места прибытия заполнено, отображение экрана меняется, см. раздел 3 “Поиск. Выбрана страна”.
 3. Поиск. Выбрана страна
 
+![image](https://github.com/user-attachments/assets/059c6eb9-0091-41d3-af82-eb21e0c68a38)
 
+![image](https://github.com/user-attachments/assets/32e36e02-de71-4454-b954-02e6645279aa)
 
 
 
@@ -126,7 +139,9 @@ id
 4. Просмотреть все билеты
 Экран билетов
 
+![image](https://github.com/user-attachments/assets/2982cbeb-5079-490b-a654-8e461a44b143)
 
+![image](https://github.com/user-attachments/assets/05b59065-d5b4-45ba-9113-07b14c07f7f9)
 
 
 
@@ -137,6 +152,7 @@ id
 5 - хардкодный нефункциональный элемент.
 
 Карточка билета
+![image](https://github.com/user-attachments/assets/4369dbc3-22fd-4e6f-9130-bfdc11fbe00b)
 
 
 1 - Бейдж. Значение берется из поля badge. Элемент опциональный, не пришел - не отображаем.
