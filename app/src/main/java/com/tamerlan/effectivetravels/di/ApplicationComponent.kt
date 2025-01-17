@@ -6,6 +6,9 @@ package com.tamerlan.effectivetravels.di
 import android.app.Application
 import com.tamerlan.effectivetravels.presentation.EffectiveTravelsApp
 import com.tamerlan.effectivetravels.presentation.MainActivity
+import com.tamerlan.main.di.DataModule
+import com.tamerlan.main.di.ViewModelModule
+import com.tamerlan.network.di.NetworkModule
 import dagger.BindsInstance
 import dagger.Component
 

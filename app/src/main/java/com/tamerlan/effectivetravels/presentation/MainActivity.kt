@@ -15,11 +15,11 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    private lateinit var viewModel: MainViewModel
+    private lateinit var viewModel: com.tamerlan.main.presentation.MainViewModel
 //
 //    //
     @Inject
-    lateinit var viewModelFactory: ViewModelFactory
+    lateinit var viewModelFactory: com.tamerlan.main.presentation.ViewModelFactory
 //
     private val component by lazy {
         (application as EffectiveTravelsApp).appComponent
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        viewModel = ViewModelProvider(this, viewModelFactory)[MainViewModel::class.java]
+        viewModel = ViewModelProvider(this, viewModelFactory)[com.tamerlan.main.presentation.MainViewModel::class.java]
         Log.d("MainViewModel", "onCreate: ${viewModel.getOfferList()}")
 
 

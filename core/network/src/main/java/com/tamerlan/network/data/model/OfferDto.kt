@@ -1,4 +1,4 @@
-package com.tamerlan.effectivetravels.data.model
+package com.tamerlan.network.data.model
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

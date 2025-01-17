@@ -1,4 +1,4 @@
-package com.tamerlan.effectivetravels.di
+package com.tamerlan.main.di
 
 import androidx.lifecycle.ViewModel
 import dagger.MapKey

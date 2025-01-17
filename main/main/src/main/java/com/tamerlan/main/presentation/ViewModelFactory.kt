@@ -1,4 +1,4 @@
-package com.tamerlan.effectivetravels.presentation
+package com.tamerlan.main.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

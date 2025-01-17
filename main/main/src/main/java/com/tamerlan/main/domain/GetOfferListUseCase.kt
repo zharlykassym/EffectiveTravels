@@ -1,4 +1,4 @@
-package com.tamerlan.effectivetravels.domain
+package com.tamerlan.main.domain
 
 import javax.inject.Inject
 

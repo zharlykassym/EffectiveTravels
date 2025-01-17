@@ -1,8 +1,7 @@
-package com.tamerlan.effectivetravels.presentation
+package com.tamerlan.main.presentation
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
-import com.tamerlan.effectivetravels.domain.GetOfferListUseCase
+import com.tamerlan.main.domain.GetOfferListUseCase
 import javax.inject.Inject
 
 class MainViewModel @Inject constructor(

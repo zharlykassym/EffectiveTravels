@@ -1,15 +1,15 @@
-package com.tamerlan.effectivetravels.di
+package com.tamerlan.network.di
 
 
-import com.tamerlan.effectivetravels.data.ApiFactory
-import com.tamerlan.effectivetravels.data.ApiService
+import com.tamerlan.network.data.ApiFactory
+import com.tamerlan.network.data.ApiService
 import dagger.Module
 import dagger.Provides
 
 @Module
 object NetworkModule {
 
-    @ApplicationScope
+//    @ApplicationScope
     @Provides
     fun provideApiService(): ApiService {
         return ApiFactory.apiService
