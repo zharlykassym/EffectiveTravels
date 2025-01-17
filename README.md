@@ -1,6 +1,10 @@
 Техническое задание от Effective Mobile, выполняемое из интереса к практике.
-
-
+1. Спроектировал многомодульную архитектуру по принципам Clean Architecture.
+2. Настроил Gradle зависимости по принципу централизации зависимостей в buildSrc.
+3. Настроил Dependency Injection с помощью Dagger2
+4. Настроил работу Retrofit, ApiService, прописал Dto, Mappers, UseCases, Entities.
+5. Написал ViewModelFactory. Работаю над ViewModel.
+---
 
 
 
