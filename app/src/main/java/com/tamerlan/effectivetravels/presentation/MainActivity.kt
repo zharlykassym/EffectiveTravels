@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import com.tamerlan.effectivetravels.R
 import javax.inject.Inject
 
@@ -36,8 +37,26 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         viewModel = ViewModelProvider(this, viewModelFactory)[com.tamerlan.main.presentation.MainViewModel::class.java]
-        Log.d("MainViewModel", "onCreate: ${viewModel.getOfferList()}")
 
+
+
+
+//        for (offer in viewModel.offers.value) {
+//            Log.d("MainViewModel", "onCreate: ${offer.title}")
+//        }
+
+//        val offerList = viewModel.offers.value
+//        for (offer in offerList) {
+//            Log.d("MainViewModel", "onCreate: ${offer.title}")
+//        }
+
+        lifecycleScope.launchWhenStarted {
+            viewModel.offers.collect { offerList ->
+                for (offer in offerList) {
+                    Log.d("MainViewModel", "onCreate: ${offer.title}")
+                }
+            }
+        }
 
 
 

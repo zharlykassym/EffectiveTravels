@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     >
 
+    <!-- Разрешение для использования интернета -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="com.tamerlan.effectivetravels.presentation.EffectiveTravelsApp"
         android:allowBackup="true"
